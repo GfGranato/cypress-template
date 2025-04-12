@@ -12,12 +12,6 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           runTests: false
-      - name: Save build folder
-        uses: actions/upload-artifact@v4
-        with:
-          name: build
-          if-no-files-found: error
-          path: build
   
   cypress-run:
     runs-on: ubuntu-latest
