@@ -4,7 +4,6 @@
   },
   "scripts": {
     "cy:open": "cypress open",
-    "start": "npx cypress run",
-    "build": "echo 'Skipping build for live website testing' && exit 0"
+    "start": "npx cypress run"
   }
 }
